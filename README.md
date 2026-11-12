@@ -14,7 +14,7 @@ Claude Code içinde şu iki komutu çalıştırın:
 
 ```
 /plugin marketplace add zorba43/ufuk-skills
-/plugin install superpowers@ufuk-skills
+/plugin install ufuk-skills@ufuk-skills
 ```
 
 Kurulumdan sonra Claude Code'u yeniden başlatın (veya `/reload-plugins` çalıştırın).
@@ -23,7 +23,7 @@ Kurulumdan sonra Claude Code'u yeniden başlatın (veya `/reload-plugins` çalı
 
 | Eklenti | Açıklama |
 |---|---|
-| `superpowers` | TDD, hata ayıklama, planlama ve iş birliği için temel skill kütüphanesi. Doğrudan [obra/superpowers](https://github.com/obra/superpowers) reposundan kurulur. |
+| `ufuk-skills` | Planlama, hata ayıklama, TDD ve kod incelemesi için iş akışı skill'leri. Jesse Vincent'ın Superpowers eklentisine dayanır (skill'ler `/superpowers:...` adıyla görünür). Doğrudan [obra/superpowers](https://github.com/obra/superpowers) reposundan kurulur. |
 
 Kendi skill'lerim ileride `plugins/` klasörüne eklenecek.
 
@@ -45,7 +45,7 @@ Run these two commands inside Claude Code:
 
 ```
 /plugin marketplace add zorba43/ufuk-skills
-/plugin install superpowers@ufuk-skills
+/plugin install ufuk-skills@ufuk-skills
 ```
 
 Restart Claude Code afterwards (or run `/reload-plugins`).
@@ -54,7 +54,7 @@ Restart Claude Code afterwards (or run `/reload-plugins`).
 
 | Plugin | Description |
 |---|---|
-| `superpowers` | Core skills library for TDD, debugging, planning and collaboration. Installed directly from [obra/superpowers](https://github.com/obra/superpowers). |
+| `ufuk-skills` | Workflow skills for planning, debugging, TDD and code review. Based on Superpowers by Jesse Vincent (skills appear as `/superpowers:...`). Installed directly from [obra/superpowers](https://github.com/obra/superpowers). |
 
 My own skills will be added under `plugins/` later.
 
@@ -73,4 +73,4 @@ Third-party plugins are not copied into this repo; the marketplace points to the
 
 | Plugin | Author / Yazar | Repository | License / Lisans |
 |---|---|---|---|
-| superpowers | Jesse Vincent ([@obra](https://github.com/obra)) | https://github.com/obra/superpowers | MIT |
+| ufuk-skills (Superpowers) | Jesse Vincent ([@obra](https://github.com/obra)) | https://github.com/obra/superpowers | MIT |
