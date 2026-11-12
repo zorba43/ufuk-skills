@@ -1,0 +1,27 @@
+{
+  "name": "ufuk-skills",
+  "description": "Ufuk's curated Claude Code plugins and skills",
+  "owner": {
+    "name": "zorba43",
+    "url": "https://github.com/zorba43"
+  },
+  "plugins": [
+    {
+      "name": "superpowers",
+      "source": {
+        "source": "github",
+        "repo": "obra/superpowers"
+      },
+      "description": "Core skills library for Claude Code: TDD, debugging, collaboration patterns, and proven techniques. Created by Jesse Vincent (obra), MIT licensed; sourced directly from github.com/obra/superpowers.",
+      "author": {
+        "name": "Jesse Vincent (obra)",
+        "url": "https://github.com/obra"
+      },
+      "homepage": "https://github.com/obra/superpowers",
+      "repository": "https://github.com/obra/superpowers",
+      "license": "MIT",
+      "category": "development",
+      "keywords": ["skills", "tdd", "debugging", "workflows"]
+    }
+  ]
+}
